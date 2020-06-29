@@ -74,7 +74,6 @@ class TicTacToe
     else
       move(index, token)
     end
-    display_board
   end
 
   # Return an array of the winning board indicies, or false if no winner
