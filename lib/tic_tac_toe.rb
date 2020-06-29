@@ -121,4 +121,17 @@ class TicTacToe
       return token
     end
   end
+
+  # Start playing tic-tac-toe!
+  def play
+    until over? ==  true
+      turn
+    end
+    if won? != false
+      token = winner
+      puts "Congratulations #{token}!"
+    elsif draw? == true
+      puts "Cat's Game!"
+    end
+  end
 end
