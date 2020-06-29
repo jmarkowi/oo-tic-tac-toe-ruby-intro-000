@@ -42,7 +42,7 @@ class TicTacToe
 
   # Determine if a user's move is valid; return "true" if so
   def valid_move?(index)
-    #if 
+    #if
     !position_taken?(index) && index.between?(0, 8)
   #    return true
   #  else
