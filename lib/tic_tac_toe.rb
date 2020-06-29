@@ -112,4 +112,13 @@ class TicTacToe
       return false
     end
   end
+
+  # If the game is won, return the winner's token
+  def winner
+    if won?
+      win_combination = won?
+      token = @board[win_combination[0]]
+      return token
+    end
+  end
 end
