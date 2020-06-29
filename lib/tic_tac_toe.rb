@@ -105,11 +105,6 @@ class TicTacToe
 
   # Determine if there is a draw
   def draw?
-    #if
-      won? == false && full? == true
-  #    return true
-  #  else
-  #    return false
-  #  end
+    won? == false && full? == true
   end
 end
