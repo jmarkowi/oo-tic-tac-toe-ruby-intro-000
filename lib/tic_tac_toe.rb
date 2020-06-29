@@ -63,6 +63,7 @@ class TicTacToe
 
   # A complete turn
   def turn
+    display_board
     token = current_player
     puts "Player #{token}, please enter 1-9:"
     input = gets.strip
