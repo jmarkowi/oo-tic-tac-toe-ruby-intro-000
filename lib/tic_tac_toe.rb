@@ -106,7 +106,7 @@ class TicTacToe
 
   # Determine if the game is over
   def over?
-    if draw? == true
+    if draw? == true 
       return true
     elsif won? != false
       return true
